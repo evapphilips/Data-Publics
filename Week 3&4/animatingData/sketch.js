@@ -23,7 +23,6 @@ d3.csv("parsedData.csv", function(data) {
         .attr("class", "mainContainer")
         .attr("width", "100vw")
         .attr("height", "80vh")
-        // .style("background-color", "red")
 
     // get height of container
     let containerHeight = container.node().getBoundingClientRect().height
@@ -66,7 +65,7 @@ d3.csv("parsedData.csv", function(data) {
         .attr("x", "5%")
         .attr("y", "5%")
         .attr("text-anchor", "middle")
-        .style("font-size", "10px")
+        .style("font-size", "16px")
         .style("fill", "rgba(0, 0, 0, .5)")
     container.append("text")
         .text("100% Support")
@@ -74,7 +73,7 @@ d3.csv("parsedData.csv", function(data) {
         .attr("x", "95%")
         .attr("y", "5%")
         .attr("text-anchor", "middle")
-        .style("font-size", "10px")
+        .style("font-size", "16px")
         .style("fill", "rgba(0, 0, 0, .5)")
     
     // add quesiton title
